@@ -43,8 +43,8 @@ Este proyecto fue desarrollado como parte del curso de **Tecnologías de la Info
 
 ## 🔗 Enlaces del proyecto
 
-- 🌐 **GitHub Pages:** 
-- 📂 **Repositorio en GitHub:** 
+- 🌐 **GitHub Pages:** https://karenalvarados.github.io/GALERIA_INTERACTIVA/
+- 📂 **Repositorio en GitHub:** https://github.com/KarenAlvaradoS/GALERIA_INTERACTIVA.git 
 
 ---
 
