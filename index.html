@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galería "NEOS PIZZA"🍕</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Galería Interactiva de</h1>
+  <h1 style="font-style: italic;">"NEOS PIZZA"🍕</h1>
+
+  <div>
+    <input type="url" id="urlImagen" placeholder="Pega aquí la URL de la imagen" />
+    <button id="btnAgregar">Agregar Imagen</button>
+    <br /><br />
+    <input type="file" id="inputArchivo" accept="image/*" />
+    <label for="inputArchivo">Subir imagen desde tu PC</label>
+    <span id="nombreArchivo" style="color:rgb(0, 255, 21); font-weight:bold; margin-left:10px;">
+     Ningún archivo seleccionado
+    </span>
+    <br /><br />
+    <button id="btnEliminar">Eliminar Imagen Seleccionada</button>
+  </div>
+
+  <div id="galeria" class="galeria"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

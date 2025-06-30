@@ -1,0 +1,49 @@
+h1 {
+  color: hwb(0 99% 1%);
+  text-shadow: 4px 4px 8px hsla(74, 87%, 48%, 0.874);
+}
+
+body {
+  font-family: Georgia, serif;
+  text-align: center;
+  background-color: oklch(14.208% 0.0123 42.947);
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: lab(99.31% 0.01 -0.01);
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+input[type="url"], input[type="file"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 150px;
+  height: auto;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.galeria img.seleccionada {
+  border: 3px solid #ff5722;
+  box-shadow: 0 0 10px #ff5722;
+}
