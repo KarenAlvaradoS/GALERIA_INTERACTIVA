@@ -1,36 +1,52 @@
-# Galería Interactiva - NEOS 🍕
+# 📸 Galería Interactiva - NEOS PIZZA 🍕
 
-Este proyecto fue desarrollado como parte del curso de Tecnologías de la Información y Comunicación (TIC). Permite al usuario crear una galería interactiva agregando imágenes desde una URL, seleccionarlas con un clic y eliminarlas si lo desea.
+Este proyecto fue desarrollado como parte del curso de **Tecnologías de la Información y Comunicación (TIC)**. Permite al usuario crear una galería interactiva donde puede agregar imágenes desde una URL o desde su computadora, seleccionarlas con un clic y eliminarlas si lo desea.
+
+---
 
 ## 💻 Tecnologías utilizadas
 
-- HTML
-- CSS (Flexbox)
-- JavaScript (manipulación del DOM y eventos)
+- **HTML5**
+- **CSS3 (Flexbox)**
+- **JavaScript (Manipulación del DOM y Eventos)**
+
+---
 
 ## 🎯 Funcionalidades
 
-- ✅ Agregar imágenes por URL
-- ✅ Seleccionar una imagen (solo una a la vez)
-- ✅ Eliminar la imagen seleccionada
+✅ Agregar imágenes desde una **URL**  
+✅ Agregar imágenes desde un **archivo local**  
+✅ **Seleccionar** una imagen (una a la vez)  
+✅ **Eliminar** la imagen seleccionada  
+
+---
 
 ## 📸 Cómo funciona
 
-1. El usuario escribe una URL de imagen y hace clic en "Agregar Imagen".
-2. Puede hacer clic sobre una imagen para seleccionarla (aparece un borde).
-3. Puede hacer clic en "Eliminar Imagen Seleccionada" para quitarla.
+1. El usuario ingresa una URL de imagen o selecciona un archivo desde su PC.
+2. Hace clic en **"Agregar Imagen"**.
+3. Puede hacer clic sobre cualquier imagen para **seleccionarla** (aparece un borde anaranjado).
+4. Luego, puede hacer clic en **"Eliminar Imagen Seleccionada"** para quitarla de la galería.
 
-## 🛠 Métodos usados del DOM
+---
+
+## 🛠 Métodos del DOM utilizados
 
 - `document.getElementById`
 - `createElement`
 - `addEventListener`
 - `appendChild`
 - `removeChild`
-- Eventos `click` e `input`
+- Eventos: `click` y `change`
+
+---
 
 ## 🔗 Enlaces del proyecto
 
-- 🌐 GitHub Pages: 
+- 🌐 **GitHub Pages:** 
+- 📂 **Repositorio en GitHub:** 
 
-- 📂 Repositorio GitHub: 
+---
+
+> ✨ Proyecto sencillo, funcional y realizado con mucho esfuerzo como parte de mi formación en TIC.  
+> ¡Gracias por visitar la galería interactiva de **NEOS PIZZA**! 🍕
